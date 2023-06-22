@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E5574D091C5AA636139012 /* Pods_Neobis_ios_Marketplace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C14FBB4768B68D7AB0BFE2 /* Pods_Neobis_ios_Marketplace.framework */; };
+		CEDC4CB52A44CE6B0048204A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CB42A44CE6B0048204A /* AppDelegate.swift */; };
+		CEDC4CB72A44CE6B0048204A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CB62A44CE6B0048204A /* SceneDelegate.swift */; };
+		CEDC4CB92A44CE6B0048204A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CB82A44CE6B0048204A /* ViewController.swift */; };
+		CEDC4CBC2A44CE6B0048204A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC4CBA2A44CE6B0048204A /* Main.storyboard */; };
+		CEDC4CBE2A44CE6C0048204A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC4CBD2A44CE6C0048204A /* Assets.xcassets */; };
+		CEDC4CC12A44CE6C0048204A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC4CBF2A44CE6C0048204A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DE0A3775757AB1A7C45F355 /* Pods-Neobis_ios_Marketplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_ios_Marketplace.debug.xcconfig"; path = "Target Support Files/Pods-Neobis_ios_Marketplace/Pods-Neobis_ios_Marketplace.debug.xcconfig"; sourceTree = "<group>"; };
+		453FBFEC1457F7682FE3CB6C /* Pods-Neobis_ios_Marketplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_ios_Marketplace.release.xcconfig"; path = "Target Support Files/Pods-Neobis_ios_Marketplace/Pods-Neobis_ios_Marketplace.release.xcconfig"; sourceTree = "<group>"; };
+		72C14FBB4768B68D7AB0BFE2 /* Pods_Neobis_ios_Marketplace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neobis_ios_Marketplace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC4CB12A44CE6B0048204A /* Neobis_ios_Marketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_ios_Marketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC4CB42A44CE6B0048204A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDC4CB62A44CE6B0048204A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDC4CB82A44CE6B0048204A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDC4CBB2A44CE6B0048204A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDC4CBD2A44CE6C0048204A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDC4CC02A44CE6C0048204A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDC4CC22A44CE6C0048204A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDC4CAE2A44CE6B0048204A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E5574D091C5AA636139012 /* Pods_Neobis_ios_Marketplace.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023772FEE4B71A90B94F8BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C14FBB4768B68D7AB0BFE2 /* Pods_Neobis_ios_Marketplace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A174E57052C1B2FB9984C01E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE0A3775757AB1A7C45F355 /* Pods-Neobis_ios_Marketplace.debug.xcconfig */,
+				453FBFEC1457F7682FE3CB6C /* Pods-Neobis_ios_Marketplace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEDC4CA82A44CE6A0048204A = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CB32A44CE6B0048204A /* Neobis_ios_Marketplace */,
+				CEDC4CB22A44CE6B0048204A /* Products */,
+				A174E57052C1B2FB9984C01E /* Pods */,
+				023772FEE4B71A90B94F8BAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDC4CB22A44CE6B0048204A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CB12A44CE6B0048204A /* Neobis_ios_Marketplace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDC4CB32A44CE6B0048204A /* Neobis_ios_Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CC82A44D0840048204A /* Helpers */,
+				CEDC4CB42A44CE6B0048204A /* AppDelegate.swift */,
+				CEDC4CB62A44CE6B0048204A /* SceneDelegate.swift */,
+				CEDC4CB82A44CE6B0048204A /* ViewController.swift */,
+				CEDC4CBA2A44CE6B0048204A /* Main.storyboard */,
+				CEDC4CBD2A44CE6C0048204A /* Assets.xcassets */,
+				CEDC4CBF2A44CE6C0048204A /* LaunchScreen.storyboard */,
+				CEDC4CC22A44CE6C0048204A /* Info.plist */,
+			);
+			path = Neobis_ios_Marketplace;
+			sourceTree = "<group>";
+		};
+		CEDC4CC82A44D0840048204A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDC4CB02A44CE6B0048204A /* Neobis_ios_Marketplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDC4CC52A44CE6C0048204A /* Build configuration list for PBXNativeTarget "Neobis_ios_Marketplace" */;
+			buildPhases = (
+				67BAA55FE41DC33269789744 /* [CP] Check Pods Manifest.lock */,
+				CEDC4CAD2A44CE6B0048204A /* Sources */,
+				CEDC4CAE2A44CE6B0048204A /* Frameworks */,
+				CEDC4CAF2A44CE6B0048204A /* Resources */,
+				B766F1F0B42BE2BE55A8569F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_ios_Marketplace;
+			productName = Neobis_ios_Marketplace;
+			productReference = CEDC4CB12A44CE6B0048204A /* Neobis_ios_Marketplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDC4CA92A44CE6A0048204A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CEDC4CB02A44CE6B0048204A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CEDC4CAC2A44CE6A0048204A /* Build configuration list for PBXProject "Neobis_ios_Marketplace" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDC4CA82A44CE6A0048204A;
+			productRefGroup = CEDC4CB22A44CE6B0048204A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDC4CB02A44CE6B0048204A /* Neobis_ios_Marketplace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDC4CAF2A44CE6B0048204A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDC4CC12A44CE6C0048204A /* LaunchScreen.storyboard in Resources */,
+				CEDC4CBE2A44CE6C0048204A /* Assets.xcassets in Resources */,
+				CEDC4CBC2A44CE6B0048204A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67BAA55FE41DC33269789744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neobis_ios_Marketplace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B766F1F0B42BE2BE55A8569F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neobis_ios_Marketplace/Pods-Neobis_ios_Marketplace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neobis_ios_Marketplace/Pods-Neobis_ios_Marketplace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neobis_ios_Marketplace/Pods-Neobis_ios_Marketplace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDC4CAD2A44CE6B0048204A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDC4CB92A44CE6B0048204A /* ViewController.swift in Sources */,
+				CEDC4CB52A44CE6B0048204A /* AppDelegate.swift in Sources */,
+				CEDC4CB72A44CE6B0048204A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDC4CBA2A44CE6B0048204A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDC4CBB2A44CE6B0048204A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDC4CBF2A44CE6C0048204A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDC4CC02A44CE6C0048204A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDC4CC32A44CE6C0048204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDC4CC42A44CE6C0048204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDC4CC62A44CE6C0048204A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE0A3775757AB1A7C45F355 /* Pods-Neobis_ios_Marketplace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_ios_Marketplace/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sultan-medetbekov.Neobis-ios-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDC4CC72A44CE6C0048204A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453FBFEC1457F7682FE3CB6C /* Pods-Neobis_ios_Marketplace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_ios_Marketplace/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sultan-medetbekov.Neobis-ios-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDC4CAC2A44CE6A0048204A /* Build configuration list for PBXProject "Neobis_ios_Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDC4CC32A44CE6C0048204A /* Debug */,
+				CEDC4CC42A44CE6C0048204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDC4CC52A44CE6C0048204A /* Build configuration list for PBXNativeTarget "Neobis_ios_Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDC4CC62A44CE6C0048204A /* Debug */,
+				CEDC4CC72A44CE6C0048204A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDC4CA92A44CE6A0048204A /* Project object */;
+}
