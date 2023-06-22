@@ -15,6 +15,11 @@
 		CEDC4CBE2A44CE6C0048204A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC4CBD2A44CE6C0048204A /* Assets.xcassets */; };
 		CEDC4CC12A44CE6C0048204A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC4CBF2A44CE6C0048204A /* LaunchScreen.storyboard */; };
 		CEDC4CCA2A44D1140048204A /* FlexibleHeightWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CC92A44D1140048204A /* FlexibleHeightWidth.swift */; };
+		CEDC4CCC2A44D13F0048204A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CCB2A44D13F0048204A /* CustomTextField.swift */; };
+		CEDC4CD02A44D1A40048204A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CCF2A44D1A40048204A /* AuthView.swift */; };
+		CEDC4CD22A44D1B00048204A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CD12A44D1B00048204A /* AuthViewController.swift */; };
+		CEDC4CD52A44D1C80048204A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CD42A44D1C80048204A /* BaseView.swift */; };
+		CEDC4CD72A44D1D40048204A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC4CD62A44D1D40048204A /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		CEDC4CC02A44CE6C0048204A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDC4CC22A44CE6C0048204A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC4CC92A44D1140048204A /* FlexibleHeightWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeightWidth.swift; sourceTree = "<group>"; };
+		CEDC4CCB2A44D13F0048204A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CEDC4CCF2A44D1A40048204A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		CEDC4CD12A44D1B00048204A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		CEDC4CD42A44D1C80048204A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		CEDC4CD62A44D1D40048204A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,8 @@
 		CEDC4CB32A44CE6B0048204A /* Neobis_ios_Marketplace */ = {
 			isa = PBXGroup;
 			children = (
+				CEDC4CD32A44D1BD0048204A /* Base */,
+				CEDC4CCD2A44D1610048204A /* Flow */,
 				CEDC4CC82A44D0840048204A /* Helpers */,
 				CEDC4CB42A44CE6B0048204A /* AppDelegate.swift */,
 				CEDC4CB62A44CE6B0048204A /* SceneDelegate.swift */,
@@ -98,8 +110,35 @@
 			isa = PBXGroup;
 			children = (
 				CEDC4CC92A44D1140048204A /* FlexibleHeightWidth.swift */,
+				CEDC4CCB2A44D13F0048204A /* CustomTextField.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CEDC4CCD2A44D1610048204A /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CCE2A44D1910048204A /* AuthScreen */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		CEDC4CCE2A44D1910048204A /* AuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CCF2A44D1A40048204A /* AuthView.swift */,
+				CEDC4CD12A44D1B00048204A /* AuthViewController.swift */,
+			);
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		CEDC4CD32A44D1BD0048204A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC4CD42A44D1C80048204A /* BaseView.swift */,
+				CEDC4CD62A44D1D40048204A /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +258,13 @@
 			files = (
 				CEDC4CCA2A44D1140048204A /* FlexibleHeightWidth.swift in Sources */,
 				CEDC4CB92A44CE6B0048204A /* ViewController.swift in Sources */,
+				CEDC4CD02A44D1A40048204A /* AuthView.swift in Sources */,
+				CEDC4CD22A44D1B00048204A /* AuthViewController.swift in Sources */,
 				CEDC4CB52A44CE6B0048204A /* AppDelegate.swift in Sources */,
+				CEDC4CD72A44D1D40048204A /* BaseViewController.swift in Sources */,
 				CEDC4CB72A44CE6B0048204A /* SceneDelegate.swift in Sources */,
+				CEDC4CCC2A44D13F0048204A /* CustomTextField.swift in Sources */,
+				CEDC4CD52A44D1C80048204A /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
